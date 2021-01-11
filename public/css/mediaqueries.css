@@ -1,0 +1,49 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+@media (min-width: 576px) {
+	
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.f-cust{
+		position: fixed;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+/*IPAD MINI VERTICAL*/
+@media (min-width: 768px) { 
+	.c-img{
+		height: 500px;		
+	}
+
+	.f-cust{
+		position: fixed;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+/*IPAD MINI HORIZONTAL*/
+@media (min-width: 992px) {
+	.c-img{
+		height: 600px;		
+	}
+	.logo a{
+		height: 500px;
+	}
+	.f-cust{
+		position: fixed;
+	}
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/*LAPTOP*/
+@media (min-width: 1200px) { 
+	.c-img{
+		height: 700px;		
+	}
+	.f-cust{
+		position: fixed;
+	}
+}
